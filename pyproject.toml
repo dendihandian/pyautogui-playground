@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyautogui-playground"
+version = "0.1.0"
+description = ""
+authors = ["Dendi Handian <dendi.handian@tribunnews.com>"]
+readme = "README.md"
+packages = [{include = "pyautogui_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
